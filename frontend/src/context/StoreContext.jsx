@@ -7,7 +7,7 @@ export const StoreContext= createContext(null)
 
 
 const StoreContextProvider=(props)=>{
-  const url="https://food-order-back-phi.vercel.app";
+  const url="https://foodorder-backend-yl5n.onrender.com";
 
   const [cartItems,setCartItems]=useState({})
   
