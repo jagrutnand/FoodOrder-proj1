@@ -37,7 +37,9 @@ const Verify = () => {
         <div className="spinner">
 
         </div>
-      
+      <button onClick={() => navigate("/myorders")}>
+  Go to My Orders
+</button>
     </div>
   )
 }
