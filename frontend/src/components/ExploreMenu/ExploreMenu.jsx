@@ -23,6 +23,7 @@ const ExploreMenu = ({category,setCategory}) => {
           slidesPerView={5}
           navigation
           breakpoints={{
+            450: { slidesPerView: 2},
             547: { slidesPerView: 2},
             640: { slidesPerView: 2 },
             768: { slidesPerView: 3 },
