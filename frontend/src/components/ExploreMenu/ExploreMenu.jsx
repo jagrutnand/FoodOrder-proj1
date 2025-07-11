@@ -1,10 +1,11 @@
 import React from 'react'
 import './ExploreMenu.css'
 import { menu_list } from '../../assets/assets'
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
-import { Swiper } from 'swiper/types';
+
 
 const ExploreMenu = ({category,setCategory}) => {
  return (
